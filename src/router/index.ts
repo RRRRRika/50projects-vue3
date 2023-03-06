@@ -9,6 +9,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Expanding-Cards',
         path: '/Expanding-Cards',
         component: () => import('../views/projects/Day1-Expanding-Cards.vue')
+    },
+    {
+        name: 'Progress-Steps',
+        path: '/Progress-Steps',
+        component: () => import('../views/projects/Day2-Progress-Steps.vue')
     }
 ]
 const history = createWebHistory();

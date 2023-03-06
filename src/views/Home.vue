@@ -1,14 +1,20 @@
 <script setup lang="ts">
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
 </script>
 
 <template>
     <div class="container">
         <div class="title">Projects List</div>
         <div class="projects-box">
-            <div class="item">
+            <div class="item" @click="router.push('/Expanding-Cards')">
                 <img src="../static/day1.png" alt="day1" class="item__img">
                 <h3 class="item__label">Expanding Cards</h3>
+            </div>
+            <div class="item" @click="router.push('/Progress-Steps')">
+                <img src="../static/day2.png" alt="day2" class="item__img">
+                <h3 class="item__label">Progress Steps</h3>
             </div>
         </div>
     </div>
@@ -36,7 +42,7 @@
     padding: 5rem 5rem;
 
     display: grid;
-    gap: 1.5rem;
+    gap: 3rem;
     grid-template-rows: repeat(2, minmax(10rem, min-content));
     grid-template-columns: repeat(4, 1fr);
 }
