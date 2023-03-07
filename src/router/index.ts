@@ -14,6 +14,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Progress-Steps',
         path: '/Progress-Steps',
         component: () => import('../views/projects/Day2-Progress-Steps.vue')
+    },
+    {
+        name: 'Rotating-Nav-Ani',
+        path: '/Rotating-Nav-Ani',
+        component: () => import('../views/projects/Day3-Rotating-Nav-Ani.vue')
     }
 ]
 const history = createWebHistory();

@@ -16,6 +16,10 @@ const router = useRouter();
                 <img src="../static/day2.png" alt="day2" class="item__img">
                 <h3 class="item__label">Progress Steps</h3>
             </div>
+            <div class="item" @click="router.push('/Rotating-Nav-Ani')">
+                <img src="../static/day3.png" alt="day2" class="item__img">
+                <h3 class="item__label">Rotating Navigation Animation</h3>
+            </div>
         </div>
     </div>
 </template>
