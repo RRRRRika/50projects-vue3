@@ -19,6 +19,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Rotating-Nav-Ani',
         path: '/Rotating-Nav-Ani',
         component: () => import('../views/projects/Day3-Rotating-Nav-Ani.vue')
+    },
+    {
+        name: 'Hidden-Search',
+        path: '/Hidden-Search',
+        component: () => import('../views/projects/Day4-Hidden-Search.vue')
     }
 ]
 const history = createWebHistory();

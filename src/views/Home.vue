@@ -17,8 +17,12 @@ const router = useRouter();
                 <h3 class="item__label">Progress Steps</h3>
             </div>
             <div class="item" @click="router.push('/Rotating-Nav-Ani')">
-                <img src="../static/day3.png" alt="day2" class="item__img">
+                <img src="../static/day3.png" alt="day3" class="item__img">
                 <h3 class="item__label">Rotating Navigation Animation</h3>
+            </div>
+            <div class="item" @click="router.push('/Hidden-Search')">
+                <img src="../static/day4.png" alt="day4" class="item__img">
+                <h3 class="item__label">Hidden Search Widget</h3>
             </div>
         </div>
     </div>
