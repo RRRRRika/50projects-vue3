@@ -24,6 +24,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Hidden-Search',
         path: '/Hidden-Search',
         component: () => import('../views/projects/Day4-Hidden-Search.vue')
+    },
+    {
+        name: 'Blurry-Loading',
+        path: '/Blurry-Loading',
+        component: () => import('../views/projects/Day5-Blurry-Loading.vue')
     }
 ]
 const history = createWebHistory();

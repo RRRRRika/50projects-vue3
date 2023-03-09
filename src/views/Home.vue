@@ -24,6 +24,10 @@ const router = useRouter();
                 <img src="../static/day4.png" alt="day4" class="item__img">
                 <h3 class="item__label">Hidden Search Widget</h3>
             </div>
+            <div class="item" @click="router.push('/Blurry-Loading')">
+                <img src="../static/day5.png" alt="day4" class="item__img">
+                <h3 class="item__label">Blurry Loading</h3>
+            </div>
         </div>
     </div>
 </template>
