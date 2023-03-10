@@ -25,8 +25,12 @@ const router = useRouter();
                 <h3 class="item__label">Hidden Search Widget</h3>
             </div>
             <div class="item" @click="router.push('/Blurry-Loading')">
-                <img src="../static/day5.png" alt="day4" class="item__img">
+                <img src="../static/day5.png" alt="day5" class="item__img">
                 <h3 class="item__label">Blurry Loading</h3>
+            </div>
+            <div class="item" @click="router.push('/Scroll-Animation')">
+                <img src="../static/day6.png" alt="day6" class="item__img">
+                <h3 class="item__label">Scroll Animation</h3>
             </div>
         </div>
     </div>
@@ -63,7 +67,7 @@ const router = useRouter();
 
     &__img {
         width: 100%;
-        border-radius: 1.5rem;
+        border-radius: 1rem;
     }
 
     &__label {

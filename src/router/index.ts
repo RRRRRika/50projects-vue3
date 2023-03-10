@@ -29,6 +29,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Blurry-Loading',
         path: '/Blurry-Loading',
         component: () => import('../views/projects/Day5-Blurry-Loading.vue')
+    },
+    {
+        name: 'Scroll-Animation',
+        path: '/Scroll-Animation',
+        component: () => import('../views/projects/Day6-Scroll-Animation.vue')
     }
 ]
 const history = createWebHistory();
