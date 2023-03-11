@@ -34,6 +34,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Scroll-Animation',
         path: '/Scroll-Animation',
         component: () => import('../views/projects/Day6-Scroll-Animation.vue')
+    },
+    {
+        name: 'Split-Landing-Page',
+        path: '/Split-Landing-Page',
+        component: () => import('../views/projects/Day7-Split-Landing-Page.vue')
     }
 ]
 const history = createWebHistory();
