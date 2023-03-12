@@ -39,6 +39,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Split-Landing-Page',
         path: '/Split-Landing-Page',
         component: () => import('../views/projects/Day7-Split-Landing-Page.vue')
+    },
+    {
+        name: 'Form-Wave',
+        path: '/Form-Wave',
+        component: () => import('../views/projects/Day8-Form-Wave.vue')
     }
 ]
 const history = createWebHistory();

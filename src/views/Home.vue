@@ -36,6 +36,10 @@ const router = useRouter();
                 <img src="../static/day7.png" alt="day7" class="item__img">
                 <h3 class="item__label">Split Landing Page</h3>
             </div>
+            <div class="item" @click="router.push('/Form-Wave')">
+                <img src="../static/day8.png" alt="day8" class="item__img">
+                <h3 class="item__label">/Form Wave</h3>
+            </div>
         </div>
     </div>
 </template>
