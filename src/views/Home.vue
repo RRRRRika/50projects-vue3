@@ -38,7 +38,11 @@ const router = useRouter();
             </div>
             <div class="item" @click="router.push('/Form-Wave')">
                 <img src="../static/day8.png" alt="day8" class="item__img">
-                <h3 class="item__label">/Form Wave</h3>
+                <h3 class="item__label">Form Wave</h3>
+            </div>
+            <div class="item" @click="router.push('/Sound-Board')">
+                <img src="../static/day9.png" alt="day9" class="item__img">
+                <h3 class="item__label">Sound Board</h3>
             </div>
         </div>
     </div>
@@ -46,7 +50,7 @@ const router = useRouter();
 
 <style lang="scss" scoped>
 .container {
-    height: 100vh;
+    height: min-content;
     background-image: linear-gradient(to right top, #051937, #004e78, #008993, #00c178, #b7ef39);
 
     display: flex;

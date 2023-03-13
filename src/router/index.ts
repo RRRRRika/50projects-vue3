@@ -44,6 +44,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Form-Wave',
         path: '/Form-Wave',
         component: () => import('../views/projects/Day8-Form-Wave.vue')
+    },
+    {
+        name: 'Sound-Board',
+        path: '/Sound-Board',
+        component: () => import('../views/projects/Day9-Sound-Board.vue')
     }
 ]
 const history = createWebHistory();
