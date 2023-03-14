@@ -49,6 +49,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Sound-Board',
         path: '/Sound-Board',
         component: () => import('../views/projects/Day9-Sound-Board.vue')
+    },
+    {
+        name: 'Dad-Jokes',
+        path: '/Dad-Jokes',
+        component: () => import('../views/projects/Day10-Dad-Jokes.vue')
     }
 ]
 const history = createWebHistory();
