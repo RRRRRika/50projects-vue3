@@ -48,6 +48,10 @@ const router = useRouter();
                 <img src="../static/day10.png" alt="day10" class="item__img">
                 <h3 class="item__label">Dad Jokes</h3>
             </div>
+            <div class="item" @click="router.push('/Event-Keyboard')">
+                <img src="../static/day11.png" alt="day11" class="item__img">
+                <h3 class="item__label">Event Keyboard</h3>
+            </div>
         </div>
     </div>
 </template>
