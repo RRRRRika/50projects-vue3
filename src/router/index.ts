@@ -59,6 +59,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Event-Keyboard',
         path: '/Event-Keyboard',
         component: () => import('../views/projects/Day11-Event-Keyboard.vue')
+    },
+    {
+        name: 'Faq-Collapse',
+        path: '/Faq-Collapse',
+        component: () => import('../views/projects/Day12-Faq-Collapse.vue')
     }
 ]
 const history = createWebHistory();
