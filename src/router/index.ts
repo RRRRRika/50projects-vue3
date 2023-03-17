@@ -64,6 +64,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Faq-Collapse',
         path: '/Faq-Collapse',
         component: () => import('../views/projects/Day12-Faq-Collapse.vue')
+    },
+    {
+        name: 'Random-Choice-Picker',
+        path: '/Random-Choice-Picker',
+        component: () => import('../views/projects/Day13-Random-Choice-Picker.vue')
     }
 ]
 const history = createWebHistory();

@@ -56,6 +56,10 @@ const router = useRouter();
                 <img src="../static/day12.png" alt="day12" class="item__img">
                 <h3 class="item__label">Faq Collapse</h3>
             </div>
+            <div class="item" @click="router.push('/Random-Choice-Picker')">
+                <img src="../static/day13.png" alt="day13" class="item__img">
+                <h3 class="item__label">Random Choice Picker</h3>
+            </div>
         </div>
     </div>
 </template>
