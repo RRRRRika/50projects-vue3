@@ -66,9 +66,14 @@ const routes: RouteRecordRaw[] = [
         component: () => import('../views/projects/Day12-Faq-Collapse.vue')
     },
     {
-        name: 'Random-Choice-Picker',
+        name: '/RandoAnimated-Navigation',
         path: '/Random-Choice-Picker',
         component: () => import('../views/projects/Day13-Random-Choice-Picker.vue')
+    },
+    {
+        name: 'Animated-Navigation',
+        path: '/Animated-Navigation',
+        component: () => import('../views/projects//Day14-Animated-Navigation.vue')
     }
 ]
 const history = createWebHistory();

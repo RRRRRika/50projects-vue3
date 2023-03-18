@@ -60,6 +60,10 @@ const router = useRouter();
                 <img src="../static/day13.png" alt="day13" class="item__img">
                 <h3 class="item__label">Random Choice Picker</h3>
             </div>
+            <div class="item" @click="router.push('/Animated-Navigation')">
+                <img src="../static/day14.png" alt="day14" class="item__img">
+                <h3 class="item__label">Animated Navigation</h3>
+            </div>
         </div>
     </div>
 </template>
