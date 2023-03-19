@@ -73,7 +73,12 @@ const routes: RouteRecordRaw[] = [
     {
         name: 'Animated-Navigation',
         path: '/Animated-Navigation',
-        component: () => import('../views/projects//Day14-Animated-Navigation.vue')
+        component: () => import('../views/projects/Day14-Animated-Navigation.vue')
+    },
+    {
+        name: 'Increasing-Counter',
+        path: '/Increasing-Counter',
+        component: () => import('../views/projects/Day15-Increasing-Counter.vue')
     }
 ]
 const history = createWebHistory();

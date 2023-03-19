@@ -64,6 +64,10 @@ const router = useRouter();
                 <img src="../static/day14.png" alt="day14" class="item__img">
                 <h3 class="item__label">Animated Navigation</h3>
             </div>
+            <div class="item" @click="router.push('/Increasing-Counter')">
+                <img src="../static/day15.png" alt="day15" class="item__img">
+                <h3 class="item__label">Increasing Counter</h3>
+            </div>
         </div>
     </div>
 </template>
