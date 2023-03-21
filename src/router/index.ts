@@ -84,6 +84,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Drink-Water',
         path: '/Drink-Water',
         component: () => import('../views/projects/Day16-Drink-Water.vue')
+    },
+    {
+        name: 'Movie-App',
+        path: '/Movie-App',
+        component: () => import('../views/projects/Day17-Movie-App.vue')
     }
 ]
 const history = createWebHistory();
