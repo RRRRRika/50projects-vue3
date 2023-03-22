@@ -76,6 +76,10 @@ const router = useRouter();
                 <img src="../static/day17.png" alt="day17" class="item__img">
                 <h3 class="item__label">Movie App</h3>
             </div>
+            <div class="item" @click="router.push('/Background-Slider')">
+                <img src="../static/day18.png" alt="day18" class="item__img">
+                <h3 class="item__label">Background-Slider</h3>
+            </div>
         </div>
     </div>
 </template>

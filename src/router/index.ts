@@ -89,6 +89,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Movie-App',
         path: '/Movie-App',
         component: () => import('../views/projects/Day17-Movie-App.vue')
+    },
+    {
+        name: 'Background-Slider',
+        path: '/Background-Slider',
+        component: () => import('../views/projects/Day18-Background-Slider.vue')
     }
 ]
 const history = createWebHistory();
