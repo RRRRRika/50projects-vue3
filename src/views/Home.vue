@@ -80,6 +80,10 @@ const router = useRouter();
                 <img src="../static/day18.png" alt="day18" class="item__img">
                 <h3 class="item__label">Background-Slider</h3>
             </div>
+            <div class="item" @click="router.push('/Theme-Clock')">
+                <img src="../static/day19.png" alt="day19" class="item__img">
+                <h3 class="item__label">Theme Clock</h3>
+            </div>
         </div>
     </div>
 </template>

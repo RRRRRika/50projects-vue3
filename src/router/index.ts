@@ -94,6 +94,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Background-Slider',
         path: '/Background-Slider',
         component: () => import('../views/projects/Day18-Background-Slider.vue')
+    },
+    {
+        name: 'Theme-Clock',
+        path: '/Theme-Clock',
+        component: () => import('../views/projects/Day19-Theme-Clock.vue')
     }
 ]
 const history = createWebHistory();
