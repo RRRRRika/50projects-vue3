@@ -84,6 +84,14 @@ const router = useRouter();
                 <img src="../static/day19.png" alt="day19" class="item__img">
                 <h3 class="item__label">Theme Clock</h3>
             </div>
+            <div class="item" @click="router.push('/Button-Ripple-Effect')">
+                <img src="../static/day20.png" alt="day20" class="item__img">
+                <h3 class="item__label">Button Ripple Effect (<span style="background-color: brown;">has ERROR</span>)</h3>
+            </div>
+            <div class="item" @click="router.push('/Drag-N-Drop')">
+                <img src="../static/day21.png" alt="day21" class="item__img">
+                <h3 class="item__label">Drag N Drop</h3>
+            </div>
         </div>
     </div>
 </template>

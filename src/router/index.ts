@@ -99,6 +99,16 @@ const routes: RouteRecordRaw[] = [
         name: 'Theme-Clock',
         path: '/Theme-Clock',
         component: () => import('../views/projects/Day19-Theme-Clock.vue')
+    },
+    {
+        name: 'Button-Ripple-Effect',
+        path: '/Button-Ripple-Effect',
+        component: () => import('../views/projects/Day20-Button-Ripple-Effect.vue')
+    },
+    {
+        name: 'Drag-N-Drop',
+        path: '/Drag-N-Drop',
+        component: () => import('../views/projects/Day21-Drag-N-Drop.vue')
     }
 ]
 const history = createWebHistory();
