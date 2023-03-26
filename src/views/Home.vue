@@ -92,6 +92,10 @@ const router = useRouter();
                 <img src="../static/day21.png" alt="day21" class="item__img">
                 <h3 class="item__label">Drag N Drop</h3>
             </div>
+            <div class="item" @click="router.push('/Drawing-App')">
+                <img src="../static/day22.png" alt="day22" class="item__img">
+                <h3 class="item__label">Drawing App</h3>
+            </div>
         </div>
     </div>
 </template>

@@ -109,6 +109,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Drag-N-Drop',
         path: '/Drag-N-Drop',
         component: () => import('../views/projects/Day21-Drag-N-Drop.vue')
+    },
+    {
+        name: 'Drawing-App',
+        path: '/Drawing-App',
+        component: () => import('../views/projects/Day22-Drawing-App.vue')
     }
 ]
 const history = createWebHistory();
