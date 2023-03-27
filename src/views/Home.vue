@@ -96,6 +96,10 @@ const router = useRouter();
                 <img src="../static/day22.png" alt="day22" class="item__img">
                 <h3 class="item__label">Drawing App</h3>
             </div>
+            <div class="item" @click="router.push('/Kinetic-Loader')">
+                <img src="../static/day23.png" alt="day23" class="item__img">
+                <h3 class="item__label">Kinetic Loader</h3>
+            </div>
         </div>
     </div>
 </template>

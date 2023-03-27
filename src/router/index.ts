@@ -114,6 +114,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Drawing-App',
         path: '/Drawing-App',
         component: () => import('../views/projects/Day22-Drawing-App.vue')
+    },
+    {
+        name: 'Kinetic-Loader',
+        path: '/Kinetic-Loader',
+        component: () => import('../views/projects/Day23-Kinetic-Loader.vue')
     }
 ]
 const history = createWebHistory();
