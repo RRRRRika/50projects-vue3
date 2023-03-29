@@ -100,6 +100,14 @@ const router = useRouter();
                 <img src="../static/day23.png" alt="day23" class="item__img">
                 <h3 class="item__label">Kinetic Loader</h3>
             </div>
+            <div class="item" @click="router.push('/Skeleton-Loading')">
+                <img src="../static/day24.png" alt="day24" class="item__img">
+                <h3 class="item__label">Skeleton Loading</h3>
+            </div>
+            <div class="item" @click="router.push('/Sticky-Navigation')">
+                <img src="../static/day25.png" alt="day25" class="item__img">
+                <h3 class="item__label">Sticky Navigation</h3>
+            </div>
         </div>
     </div>
 </template>

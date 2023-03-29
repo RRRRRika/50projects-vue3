@@ -119,6 +119,16 @@ const routes: RouteRecordRaw[] = [
         name: 'Kinetic-Loader',
         path: '/Kinetic-Loader',
         component: () => import('../views/projects/Day23-Kinetic-Loader.vue')
+    },
+    {
+        name: 'Skeleton-Loading',
+        path: '/Skeleton-Loading',
+        component: () => import('../views/projects/Day24-Skeleton-Loading.vue')
+    },
+    {
+        name: 'Sticky-Navigation',
+        path: '/Sticky-Navigation',
+        component: () => import('../views/projects/Day25-Sticky-Navigation.vue')
     }
 ]
 const history = createWebHistory();
