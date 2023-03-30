@@ -108,6 +108,10 @@ const router = useRouter();
                 <img src="../static/day25.png" alt="day25" class="item__img">
                 <h3 class="item__label">Sticky Navigation</h3>
             </div>
+            <div class="item" @click="router.push('/Double-Verticle-Slider')">
+                <img src="../static/day26.png" alt="day26" class="item__img">
+                <h3 class="item__label">Double Verticle Slider (<span style="background-color: brown;">UNCOMPLETE</span>)</h3>
+            </div>
         </div>
     </div>
 </template>

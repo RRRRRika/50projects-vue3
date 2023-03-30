@@ -129,6 +129,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Sticky-Navigation',
         path: '/Sticky-Navigation',
         component: () => import('../views/projects/Day25-Sticky-Navigation.vue')
+    },
+    {
+        name: 'Double-Verticle-Slider',
+        path: '/Double-Verticle-Slider',
+        component: () => import('../views/projects/Day26-Double-Verticle-Slider.vue')
     }
 ]
 const history = createWebHistory();
