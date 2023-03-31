@@ -86,7 +86,7 @@ const router = useRouter();
             </div>
             <div class="item" @click="router.push('/Button-Ripple-Effect')">
                 <img src="../static/day20.png" alt="day20" class="item__img">
-                <h3 class="item__label">Button Ripple Effect (<span style="background-color: brown;">has ERROR</span>)</h3>
+                <h3 class="item__label">Button Ripple Effect (<span style="background-color: brown;">HAS ERROR</span>)</h3>
             </div>
             <div class="item" @click="router.push('/Drag-N-Drop')">
                 <img src="../static/day21.png" alt="day21" class="item__img">
@@ -111,6 +111,14 @@ const router = useRouter();
             <div class="item" @click="router.push('/Double-Verticle-Slider')">
                 <img src="../static/day26.png" alt="day26" class="item__img">
                 <h3 class="item__label">Double Verticle Slider (<span style="background-color: brown;">UNCOMPLETE</span>)</h3>
+            </div>
+            <div class="item" @click="router.push('/Toast-Notification')">
+                <img src="../static/day27.png" alt="day27" class="item__img">
+                <h3 class="item__label">Toast Notification</h3>
+            </div>
+            <div class="item" @click="router.push('/Github-Profile')">
+                <img src="../static/day28.png" alt="day28" class="item__img">
+                <h3 class="item__label">Github Profile</h3>
             </div>
         </div>
     </div>

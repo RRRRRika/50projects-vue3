@@ -134,6 +134,16 @@ const routes: RouteRecordRaw[] = [
         name: 'Double-Verticle-Slider',
         path: '/Double-Verticle-Slider',
         component: () => import('../views/projects/Day26-Double-Verticle-Slider.vue')
+    },
+    {
+        name: 'Toast-Notification',
+        path: '/Toast-Notification',
+        component: () => import('../views/projects/Day27-Toast-Notification.vue')
+    },
+    {
+        name: 'Github-Profile',
+        path: '/Github-Profile',
+        component: () => import('../views/projects/Day28-Github-Profile.vue')
     }
 ]
 const history = createWebHistory();
