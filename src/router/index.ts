@@ -144,6 +144,16 @@ const routes: RouteRecordRaw[] = [
         name: 'Github-Profile',
         path: '/Github-Profile',
         component: () => import('../views/projects/Day28-Github-Profile.vue')
+    },
+    {
+        name: 'Double-Click-Heart',
+        path: '/Double-Click-Heart',
+        component: () => import('../views/projects/Day29-Double-Click-Heart.vue')
+    },
+    {
+        name: 'Auto-Text-Effect',
+        path: '/Auto-Text-Effect',
+        component: () => import('../views/projects/Day30-Auto-Text-Effect.vue')
     }
 ]
 const history = createWebHistory();

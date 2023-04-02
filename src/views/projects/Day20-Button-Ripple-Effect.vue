@@ -2,18 +2,18 @@
 import { ref } from 'vue';
 
 const btn = ref<HTMLButtonElement | null>();
+const show = ref<boolean>(false);
+const style = ref<any>();
 const onClick = (payload: MouseEvent) => {
-    const x = payload.clientX;
-    const y = payload.clientY;
+    const x = payload.pageX;
+    const y = payload.pageY;
 
-    const circle = document.createElement('span');
-    circle.classList.add('circle');
-    circle.style.top = x + 'px';
-    circle.style.left = y + 'px';
+    const offsetX = (payload.target as HTMLElement).offsetLeft;
+    const offsetY = (payload.target as HTMLElement).offsetTop;
 
-    btn.value?.appendChild(circle);
-
-    // setTimeout(() => circle.remove(), 500);
+    style.value = { top: `${y - offsetY}px`, left: `${x - offsetX}px` };
+    show.value = true;
+    setTimeout(() => show.value = false, 500);
 }
 </script>
 
@@ -21,6 +21,7 @@ const onClick = (payload: MouseEvent) => {
     <div class="container">
         <div ref="btn" class="button" @click="onClick">
             Click Me
+            <span class="circle" :style="style" v-show="show"></span>
         </div>
     </div>
 </template>
@@ -46,6 +47,8 @@ const onClick = (payload: MouseEvent) => {
     letter-spacing: 2px;
     outline: none;
     user-select: none;
+    position: relative;
+    overflow: hidden;
 
     &:focus {
         outline: none;

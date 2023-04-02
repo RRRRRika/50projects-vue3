@@ -86,7 +86,7 @@ const router = useRouter();
             </div>
             <div class="item" @click="router.push('/Button-Ripple-Effect')">
                 <img src="../static/day20.png" alt="day20" class="item__img">
-                <h3 class="item__label">Button Ripple Effect (<span style="background-color: brown;">HAS ERROR</span>)</h3>
+                <h3 class="item__label">Button Ripple Effect</h3>
             </div>
             <div class="item" @click="router.push('/Drag-N-Drop')">
                 <img src="../static/day21.png" alt="day21" class="item__img">
@@ -119,6 +119,14 @@ const router = useRouter();
             <div class="item" @click="router.push('/Github-Profile')">
                 <img src="../static/day28.png" alt="day28" class="item__img">
                 <h3 class="item__label">Github Profile</h3>
+            </div>
+            <div class="item" @click="router.push('/Double-Click-Heart')">
+                <img src="../static/day29.png" alt="day29" class="item__img">
+                <h3 class="item__label">Double Click Heart</h3>
+            </div>
+            <div class="item" @click="router.push('/Auto-Text-Effect')">
+                <img src="../static/day30.png" alt="day30" class="item__img">
+                <h3 class="item__label">Auto Text Effect</h3>
             </div>
         </div>
     </div>
