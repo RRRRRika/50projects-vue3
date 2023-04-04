@@ -154,6 +154,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Auto-Text-Effect',
         path: '/Auto-Text-Effect',
         component: () => import('../views/projects/Day30-Auto-Text-Effect.vue')
+    },
+    {
+        name: 'Password-Generator',
+        path: '/Password-Generator',
+        component: () => import('../views/projects/Day31-Password-Generator.vue')
     }
 ]
 const history = createWebHistory();

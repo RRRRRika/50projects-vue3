@@ -128,6 +128,10 @@ const router = useRouter();
                 <img src="../static/day30.png" alt="day30" class="item__img">
                 <h3 class="item__label">Auto Text Effect</h3>
             </div>
+            <div class="item" @click="router.push('/Password-Generator')">
+                <img src="../static/day31.png" alt="day31" class="item__img">
+                <h3 class="item__label">Password Generator</h3>
+            </div>
         </div>
     </div>
 </template>
